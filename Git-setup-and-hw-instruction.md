@@ -14,17 +14,17 @@ As we've seen some conflicts with upstream and local changes, let's try to follo
 
 1. In terminal/command line, navigate to the folder you want to put this repo.
 
-2. **[Only required for first-time setup]**: Fork the [class repo](https://github.com/DS-XL/ds-intro-class-2022) to your GitHub account. Your repo should look something like  
-	`https://github.com/YOUR_USERNAME/ds-intro-class-2022`
+2. **[Only required for first-time setup]**: Fork the [class repo](https://github.com/DS-XL/ds_intro_2024) to your GitHub account. Your repo should look something like  
+	`https://github.com/YOUR_USERNAME/ds_intro_2024`
 
 3. **[Only required for first-time setup]**: Clone the **forked repo** to your local directory and enter your local repo directory
  
 	```
 	cd [YOUR DESTINATION DIRECTORY] # navigate to destination on local laptop
 	
-	git clone https://github.com/YOUR_USERNAME/ds-intro-class-2022
+	git clone https://github.com/YOUR_USERNAME/ds_intro_2024
 	
-	cd ds-intro-class-2022
+	cd ds_intro_2024
 	```
 
 4. **[Only required for first-time setup]**: [Configure remote for the fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork) following the instructions
@@ -47,7 +47,7 @@ As we've seen some conflicts with upstream and local changes, let's try to follo
 
 	- If you have modified files in your local branch `[branch_name]` you might [have a conflict that prevents you from merging](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts). There are a few ways to resolve the conflict:
 		- [Resolve through command line](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line): After resolving the conflict, stage and commit your changes. Now you can merge or push changes to `origin`
-		- Instead of using `git merge`, use `git rebase`. `rebase` is like changing the "reference point" of you commit. Instead of using `origin/[branch_name]` as base for change, now you can ask Git to use the new `upstream/[branch_name]` so changes on both sides are included. If you want to use this, instead of the code block above, use the following:
+		- Instead of using `git merge`, use `git rebase`. `rebase` is like changing the "reference point" of your commit. Instead of using `origin/[branch_name]` as the base for change, now you can ask Git to use the new `upstream/[branch_name]` so changes on both sides are included. If you want to use this, instead of the code block above, use the following:
 
 			```
 			# assuming your local has an older version of [branch_name] branch
@@ -76,7 +76,7 @@ As we've seen some conflicts with upstream and local changes, let's try to follo
 	git commit -m "[message goes here]"
 	git push origin [branch_name]
 	```
-*Note*:  you are **ALWAYS** pushing to remote, make sure you are pushing to **your forked repo** as you don't have access to the class repo (this should be your `upstream` instead). Run `git remote -v` to check your remote settings and add/remove/modify as need.
+*Note*:  you are **ALWAYS** pushing to remote, make sure you are pushing to **your forked repo** as you don't have access to the class repo (this should be your `upstream` instead). Run `git remote -v` to check your remote settings and add/remove/modify as needed.
 
 	
 	
@@ -85,6 +85,6 @@ As we've seen some conflicts with upstream and local changes, let's try to follo
 2. Create a new jyputer notebook for `Exercise 3` and `Exercise 4`. Copy/Paste the problems is optional, but at least number your answers so we know which problem it is.
 3. Push your commits on the new branch `homework01` to your remote forked repo (you've learned this in above).
 4. Pull request your answers to `homework01` branch in you own forked repo following [Creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-5. Pull request your answers to `master` branch in my class repo (upstream) following [Creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork). 
+5. Pull request your answers to `main` branch in my class repo (upstream) following [Creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork). 
 	
 *Hint: you can try creating a branch from a specific branch by `git checkout -b [new branch name] [old branch name]`*
