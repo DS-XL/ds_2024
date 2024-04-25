@@ -29,8 +29,8 @@ As we've seen some conflicts with upstream and local changes, let's try to follo
 
 4. **[Only required for first-time setup]**: [Configure remote for the fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork) following the instructions
 	- Check you remote of your fork: `git remote -v`
-	- Specify the class remote(`https://github.com/DS-XL/ds-intro-class-2022`) as upstream repo that will be synced wih your fork. 
-	  `git remote add upstream https://github.com/DS-XL/ds-intro-class-2022.git`
+	- Specify the class remote(`https://github.com/DS-XL/ds_intro_2024`) as upstream repo that will be synced wih your fork. 
+	  `git remote add upstream https://github.com/DS-XL/ds_intro_2024.git`
 	- Verify the new upstream repository you've specified for your fork by running `git remote -v` again. You should now see at least 4 of them including `upstream` pull and fetch, and `origin` pull and fetch.
 	
 5. **[Do this whenever you'd like to add upstream changes to your forked repo]**. [Sync a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) to get the latest updates from class repo.
