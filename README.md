@@ -24,6 +24,14 @@ You can run python in different settings, for example, you can use `jupyter` not
 
 [class01](https://github.com/DS-XL/ds_intro_2024/tree/master/python_basics/class01):
 
-	0. Environment set up (material in section 0)
+	0.0 Introduction + Setting expectations for the class
+	0.1 Environment set-up (material in section 0)
+	0.2 Git quick intro
+	 
+
+	
+[class02](https://github.com/DS-XL/ds_intro_2024/tree/master/python_basics/class01):
+
 	1. Assign values to variables and simple arithmetics
 	2. `Print` and simple string manipulation
+	3. Value comparison and conditions using `if-elif-else`
