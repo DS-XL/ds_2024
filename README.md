@@ -39,6 +39,10 @@ You can run python in different settings, for example, you can use `jupyter` not
 
 	3. Value comparison and conditions using `if-elif-else`
 	4. Collections: list, tuple, set, and dictionary
-	5. Iteration: loops and comprehensions
-	*  Git - Committing, Pushing, and Pull Request
 	*  HW01
+
+[class04](https://github.com/DS-XL/ds_intro_2024/tree/master/python_basics/class02):
+
+	*  Git - Cloning, Committing, Pushing, and Pull Request
+	5. Iteration: loops and comprehensions
+	6. Writing functions
