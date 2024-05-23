@@ -90,7 +90,7 @@ def perfect_number(number):
 		# if not an N+, false
 		return False
 	else:
-	# Go thru all the interger j from 1 to sqrt(number), if j is a divisor of 
+	# Go thru all the interger j from 1 to sqrt(number), if j is a divisor of
 	# number, then number/j is also a divisor of number, add them both to the
 	# sum of divisors. Start from 2 cause 1 is an obvious divisor.
 		sum_div = 1
