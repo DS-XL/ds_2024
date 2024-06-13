@@ -46,3 +46,15 @@ You can run python in different settings, for example, you can use `jupyter` not
 	*  Git - Cloning, Committing, Pushing, and Pull Request
 	5. Iteration: loops and comprehensions
 	6. Writing functions
+
+[class05](https://github.com/DS-XL/ds_intro_2024/tree/master/python_basics/class03)
+
+	6. Writing functions (cont'd)
+	7. Reading and writing files
+
+[class06](https://github.com/DS-XL/ds_intro_2024/tree/master/python_basics/class04)
+
+	7. Reading and writing files (cont'd)
+	8. Intro to code complexity and performance (high level)
+	9. Coding challenge example using HackerRank and LeetCode
+	* [kick off] Intro to Pandas
