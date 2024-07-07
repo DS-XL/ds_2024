@@ -58,3 +58,25 @@ You can run python in different settings, for example, you can use `jupyter` not
 	8. Intro to code complexity and performance (high level)
 	9. Coding challenge example using HackerRank and LeetCode
 	* [kick off] Intro to Pandas
+
+ ### 3. Time Series 
+
+[class1](https://github.com/DS-XL/ds_intro_2024/tree/main/time%20series%20class/class1):
+
+	Time Series Data Introduction and Analysis
+
+[class2](https://github.com/DS-XL/ds_intro_2024/tree/main/time%20series%20class/class2)):
+
+	Time Series Data Wrangling
+
+[class3](https://github.com/DS-XL/ds_intro_2024/tree/main/time%20series%20class/class3)):
+
+	Traditional Time Series Models
+
+[class4](https://github.com/DS-XL/ds_intro_2024/tree/main/time%20series%20class/class4)):
+
+	Advanced Time Series Models
+
+[class5](https://github.com/DS-XL/ds_intro_2024/tree/main/time%20series%20class/class5))
+
+	Time Series Model Cross Validation and Hyperparameter Tuning. 
