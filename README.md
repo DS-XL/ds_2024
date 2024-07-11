@@ -59,6 +59,27 @@ You can run python in different settings, for example, you can use `jupyter` not
 	9. Coding challenge example using HackerRank and LeetCode
 	* [kick off] Intro to Pandas
 
+[class07](https://github.com/DS-XL/ds_intro_2024/blob/main/pandas_intro/)
+
+	1. Data exploration: Intro to `pandas` 
+	2. Data wrangling basics
+
+[class08](https://github.com/DS-XL/ds_intro_2024/blob/main/pandas_intro/)
+
+	2. Data wrangling basics
+	3. Using `pandas` for EDA(exploratory data analysis)
+
+[class09](https://github.com/DS-XL/ds_intro_2024/blob/main/pandas_intro/)
+
+	3. Using `pandas` for EDA(exploratory data analysis)
+	4. Plotting in python
+
+[class10](https://github.com/DS-XL/ds_intro_2024/blob/main/pandas_intro/)
+
+	4. Plotting in python, EDA example
+	5. [Advanced EDA topics] -- if time permits
+	6. Mock take-home case study
+
  ### 3. Time Series 
 
 [class1](https://github.com/DS-XL/ds_intro_2024/tree/main/time%20series%20class/class1):
