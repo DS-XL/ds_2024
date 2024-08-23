@@ -36,7 +36,7 @@ def check_path(path):
     '''
 
     # code up your solution here
-
+    return os.path.exists(path=path)
 
 
 def read_csv(file):
@@ -53,9 +53,11 @@ def read_csv(file):
     read_csv('AMZN.csv')
     >>> 14
     '''
-
+    with open(file, 'r') as f:
+        data = f.readline()
+        
     # code up your solution here
-
+    return len(data)
 
 
 def write_csv(data_list, output_file):
@@ -83,7 +85,10 @@ def write_csv(data_list, output_file):
     '''
 
     # code up your solution here
-
+    with open(output_file, 'w', newline='') as f:
+        writer = csv.writer(f)
+        for row in data_list:
+            writer.writerow(row)
 
 
 def read_json(file):
@@ -102,8 +107,18 @@ def read_json(file):
     '''
 
     # code up you solution here
-
+    with open(file, 'r') as f:
+        js = json.load(f)
+    
+    return js
 
 
 if __name__=="__main__":
-    pass
+    
+    
+    print(check_path('../../python_basics/class01'))
+    print(read_csv("class03.txt"))
+    write_csv([(1,2,3,4), (5,6,7,8), (9,10,11,12)], 'new_csv.csv')
+    dict = read_json('some.json')
+    print(dict)
+
