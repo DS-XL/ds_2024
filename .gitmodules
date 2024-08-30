@@ -1,0 +1,3 @@
+[submodule "WalmartForecast"]
+	path = WalmartForecast
+	url = https://github.com/Dr-Spicy/WalmartForecast.git
