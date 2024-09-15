@@ -1,0 +1,6 @@
+[submodule "WalmartForecast"]
+	path = WalmartForecast
+	url = https://github.com/Dr-Spicy/WalmartForecast.git
+[submodule "FraudDetection_Cpt1"]
+	path = FraudDetection_Cpt1
+	url = git@github.com:Dr-Spicy/FraudDetection_Cpt1
