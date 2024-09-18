@@ -1,0 +1,13 @@
+Cell 5:
+Consider possible null values in target.
+
+Cell 10:
+Sharing this knowledge is great!
+
+Cell 18:
+Extracting datatime related features is great! Have you found these features useful in modelling?
+
+Cell 54 - 56:
+It's good you tried two sets of weights for comparison, have you tried the model without class weights? 
+Maybe use that as a baseline? 
+
