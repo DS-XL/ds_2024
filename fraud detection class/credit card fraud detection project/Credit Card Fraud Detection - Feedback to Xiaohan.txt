@@ -1,0 +1,33 @@
+Your notebook FraudDetectionCpt1.ipynb is very detailed and informative, really appreciate the time you put into this!
+
+I like the idea that you use linkage among accounts to fill in missing values.
+
+Cell 7:
+Consider the possibility of null values in target. #.value_counts(dropna=False)
+
+Cell 13:
+This visualization is great! You might want to have a secondary y axis for isFraud=1.
+
+Cell 22:
+The box plot looks great!
+
+Cell 56:
+Great efforts in extracting date time features!
+
+Cell 67 and a few cells afterwards:
+Beautiful violin plot!
+
+Cell 75 and onwards:
+I notice you use seaboan plot instead of matplotlib, it does make the plot prettier!
+
+Feature engineering:
+Thanks for the efforts on creating new features like accountNumber+CardLast4Digits, this is really interesting! After you train the model, maybe you can retrospectively check if these features have signal?
+
+Hyperparameter tuning:
+Have you compared the model performance with and without hyperparameter tuning (default hyperparameters)?
+
+Model:
+It is great you compared different models and show their ROC curves on the same plot, it is informative!
+
+Feature importance and SHAP values:
+It is fatanstic you explored model interpretation. One thing to keep in mind: the more performant the model is, the more accurate feature importance and SHAP values will be. So, people tend to focus on feature importance and SHAP values for the most accurate model.
