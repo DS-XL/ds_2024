@@ -1,0 +1,13 @@
+EDA:
+
+1. when you use value_counts for example in cell 12, be careful with NaN values, better to add argument dropna=False.
+3. Cell 7: this is a minor point, but be careful when imputing missing categorical features with 'None': some categorical features may already have 'None' value, so maybe choose a more unique identifier like '<NULL>'
+2. Cell 9: these plots are great for categorical features, can you summarize the findings as well?
+3. text cleaning part is great! I like the comparison of wordcloud before and after cleaning, really showcasing the benefit of text cleaning! 
+4. Cell 73-74: when you calculate ROC AUC, I think you need to get predictted probabilities, not preditted class, check if this is the reason for AUC being terrible for TF-IDF.
+
+BERT Modeling:
+
+1. Thank you for showing the class how to get embeddings from the BERT model, this is a great example!
+2. Cell 56: again be careful when using roc_auc_score, it needs to take as input probability of fraud, not predicted class directly
+3. Cell 65: here the way you calculate AUC is correct! This is another way than using roc_auc_score
