@@ -1,0 +1,7 @@
+1. Again I really like your detailed markdown documentation in Jupyter notebook, great job!
+2. Cell 5: this is a great way to show missing values across columns!
+3. Cell 19-23: would be great if you also add comments/findings here
+4. Thanks for the tremendous efforts on cleaning location!
+5. The analysis on non-binary categorical features are great, very informational!
+6. It's great you demonstrated the performance lift brought by adding text features, would be nice to also show the impact on performance of other feature engineering efforts, for example, merging categorical values by PolyFuzz
+7. Thank you for taking the extra step to create slides and to demo with the class, they are beneficial to all of us 
