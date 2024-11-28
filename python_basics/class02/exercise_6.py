@@ -23,7 +23,7 @@ def calculation(a, b):
 	'''
 
 	# code up your solution here
-
+	return a+b, a-b
 
 
 def triangle_lambda():
@@ -37,8 +37,8 @@ def triangle_lambda():
 	Returns:
 	lambda_triangle_area: the lambda
 	'''
-
-
+	area = lambda b,h : b*h/2
+	return area
 
 def sort_words(hyphen_str):
 	'''
@@ -59,8 +59,8 @@ def sort_words(hyphen_str):
 	'''
 
 	# code up your solution here
-
-
+	sorted_word = '-'.join(sorted(hyphen_str.split('-')))
+	return sorted_word
 
 def perfect_number():
 	'''
@@ -82,7 +82,13 @@ def perfect_number():
 	'''
 
 	# code up your answer here
-
-
-if __name__ == '__main__':
-	pass
+	divisor = 0
+	for i in range(1, num):
+		if num%i == 0:
+			divisor += i
+		
+	if num == divisor:
+		perfect = true
+	else:
+		perfect = false
+		
